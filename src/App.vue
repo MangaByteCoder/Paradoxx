@@ -4,8 +4,8 @@ import NavbarComponent from './components/NavbarComponent.vue'
 </script>
 
 <template>
-  <div class="bg-[#181819] w-full min-h-[100vh]">
-    <NavbarComponent />
+  <div class="bg-[rgb(24,24,25)] w-full min-h-[100vh]">
+     <NavbarComponent />
     <RouterView />
   </div>
 </template>a

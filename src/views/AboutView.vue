@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="js"></script>
 
 <template>
   <div class="grid grid-cols-1 z-10">
-    <div class="min-h-[calc(85vh-60px)] bg-[url(../assets/images/about.png)] bg-cover bg-no-repeat bg-center">
+    <div
+      class="min-h-[calc(85vh-60px)] bg-[url(../assets/images/about.png)] bg-cover bg-no-repeat bg-center"
+    >
       <span
         class="shadow-md file:h-[60px] w-full text-white font-bold text-2xl flex items-center p-2"
       >
@@ -10,7 +12,7 @@
       </span>
     </div>
 
-    <div class=" text-white p-6">
+    <div class="text-white p-6">
       <p class="mb-4">
         <b>Paradox</b> , a fest designed exclusively for the BS degree students of IIT Madras,
         unfolds across 4 days, celebrating knowledge, innovation, and talent. This year marks the
