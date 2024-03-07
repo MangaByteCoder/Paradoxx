@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterLink } from 'vue-router'
+</script>
 
 <template>
   <div
@@ -14,8 +16,10 @@
       class="absolute bottom-8 flex w-full justify-center items-center text-white h-[60px] gap-8 shadow-md max-[400px]:gap-4 max-[400px]:flex-col"
     >
       <h1 class="text-2xl font-semibold max-sm:text-lg">Register for Paradox'24</h1>
-      <button class="p-2 pr-4 pl-4 bg-green-500 font-semibold rounded-sm max-sm:text-sm">
-        Register Now <faIcons :icon="['fas', 'arrow-up-right-from-square']" />
+      <button onclick="" class="p-2 pr-4 pl-4 bg-green-500 font-semibold rounded-sm max-sm:text-sm">
+        <RouterLink to="/register"
+          >Register Now <faIcons :icon="['fas', 'arrow-up-right-from-square']"
+        /></RouterLink>
       </button>
     </div>
   </div>
