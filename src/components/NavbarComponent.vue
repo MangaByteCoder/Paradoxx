@@ -10,10 +10,8 @@ function toggleMenu() {
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <div
-      class="h-[60px] w-full text-white flex justify-between items-center p-4 backdrop-blur-md sticky top-0 z-60"
-    >
+  <div class="flex flex-col sticky top-0 z-60">
+    <div class="h-[60px] w-full text-white flex justify-between items-center p-4 backdrop-blur-md">
       <div class="flex gap-2 items-center">
         <faIcons
           @click="toggleMenu"

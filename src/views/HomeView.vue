@@ -16,11 +16,13 @@ import { RouterLink } from 'vue-router'
       class="absolute bottom-8 flex w-full justify-center items-center text-white h-[60px] gap-8 shadow-md max-[400px]:gap-4 max-[400px]:flex-col"
     >
       <h1 class="text-2xl font-semibold max-sm:text-lg">Register for Paradox'24</h1>
-      <RouterLink to="/register"><button onclick="" class="p-2 pr-4 pl-4 bg-green-500 font-semibold rounded-sm max-sm:text-sm">
-        
-          Register Now <faIcons :icon="['fas', 'arrow-up-right-from-square']"
-        />
-      </button></RouterLink>
+      <RouterLink to="/register"
+        ><button
+          onclick=""
+          class="p-2 pr-4 pl-4 bg-green-500 font-semibold rounded-sm max-sm:text-sm"
+        >
+          Register Now <faIcons :icon="['fas', 'arrow-up-right-from-square']" /></button
+      ></RouterLink>
     </div>
   </div>
 </template>
